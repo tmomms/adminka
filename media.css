@@ -1,0 +1,92 @@
+@media (max-width: 400px){
+
+    .title{
+        font-size: 30px;
+    }
+
+    .first-block{
+        margin-top: 20px;
+        margin-right: 150px;
+    }
+
+.li{
+    margin: 0 0 0 5px;
+    padding: 0;
+    font-size: 16px;
+}
+
+    .arrow-svg{
+        margin:0 0px;
+        width: 15px;
+        height: 12px;
+    }
+
+    .active{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    
+    
+    .button{
+        width: 80px;
+        margin: 0 0 15px 10px;
+    }
+
+    .input{
+        font-size: 12px;
+        padding: 3 0 7 3;
+        width: 150px;
+        height: 15px;
+        margin: 0 0 15px 0;
+        background: #EEEEEE;
+        border: 1px solid #000000;
+        }
+        
+        .input-file{
+            margin: 0 0 10px 0px;
+            width: 228px;
+        }
+}
+
+
+@media (max-width: 260px){
+    .input-file{
+        margin: 0 0 10px 0px;
+        width: 150px;
+    }
+
+    .button{
+        width: 80px;
+        margin: 0 0 0 0;
+    }
+
+    .input{
+        font-size: 12px;
+        padding: 3 0 7 0;
+        width: 134px;
+        height: 15px;
+        margin: 0 0 15px 0;
+        background: #EEEEEE;
+        border: 1px solid #000000;
+        }
+
+        .li{
+            margin: 0 0 0 5px;
+            padding: 0;
+            font-size: 17px;
+            display: flex;
+        }
+
+        .active{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .arrow-svg{ 
+            margin: 17px 5px 0 0 ;
+        }
+        
+}
